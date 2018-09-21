@@ -6,5 +6,5 @@ setup(name='table-maker',
       url='https://github.com/Matthew-Dombrady/table-maker',
       author='Matthew Dombrady and Sagar Thomas',
       license='MIT',
-      packages=['table-maker'],
+      packages=['table_maker'],
       zip_safe=False)
