@@ -1,6 +1,6 @@
 from table_maker import Table
 
-t = Table.Table('Test table', ['Student name', 'GPA'], '=')
+t = Table.Table('Test table', ['Student name', 'GPA'], '#')
 t.print()
 
 

@@ -12,6 +12,14 @@ class Table:
     
 
     def print(self):
-        print(self.name)
+        for label in self.labels:
+            print(label + "  ", end="")
+            self.__symbol__(1)
+        print("\n")
+        self.__symbol__((sum(self.max_lengths)) + (4 * len(self.labels)))
+        
+
+    def __symbol__(self, num):
+        print(self.symbol * num + "  ", end="")
 
     
